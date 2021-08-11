@@ -1,0 +1,158 @@
+.product-carousel-section .carousel {
+width: auto !important;
+margin-left: -30px;
+margin-right: -30px;
+padding-left: 30px;
+padding-right: 30px;
+overflow: hidden;
+}
+.product-carousel-section .carousel-inner {
+    overflow: visible !important
+}
+
+.carousel-controls a{
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 0;
+    background: #fff;
+    z-index: 25;
+    color: #F1476E;
+    font-size: 22px;
+}
+.carousel-controls a:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.carousel-controls .btn-prev{
+    left: 0;
+    right: auto;
+}
+
+.carousel-controls .btn-next {
+    left: auto;
+    right: 0;
+}
+
+.carousel-item .card {
+    border: 0px
+}
+.card .product-label{
+    width: 65px;
+    height: 65px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    background: #F1476E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    z-index: 5
+}
+.product-carousel-section .card-body {
+    text-align: center;
+}
+.product-carousel-section .rating a {
+    display: inline-block;
+    margin-left: 8px;
+    color: #000000;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.product-carousel-section .rating a:hover {
+    text-decoration: none;
+}
+.product-carousel-section .rating .icons {
+    color: #F1476E;
+}
+.product-carousel-section .card-body .product-title {
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-carousel-section .card-body .product-title a {
+    color: #000000;
+    max-width: 220px;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+.product-carousel-section .card-body .btn {
+    background: #F1476E;
+    padding: 10px 30px;
+    width: 220px;
+    max-width: 100%;
+    color: #fff !important;
+    border: 0;   
+    font-weight: 600; 
+    text-transform: capitalize;
+    border-radius: 8px;
+} 
+.product-carousel-section .price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+.product-carousel-section .price del {
+    color: #000000;
+}
+.product-carousel-section .current {
+    padding-left: 10px;
+    color: #F1476E;
+}
+.product-carousel-section .card-text {
+    width: 186px;
+    height: 75px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+.product-carousel-section .carousel-item .info {
+    padding-top: 35px;
+}
+.product-carousel-section .btn-row {
+    margin-top: 45px;
+    text-align: center;
+    
+}
+.product-carousel-section .btn-row .btn {
+    border: 1px solid #F1476E;
+    padding: 10px 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #F1476E !important;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 767px) {
+    .product-carousel-section .carousel{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .product-carousel-section .carousel-inner{
+        margin-left: 25px;
+        margin-right: 25px;
+        width: calc(100% - 50px);
+    }
+    .carousel-controls .btn-prev{
+        left: 15px;
+    }
+    .carousel-controls .btn-next{
+        right: 15px;
+    }
+}
